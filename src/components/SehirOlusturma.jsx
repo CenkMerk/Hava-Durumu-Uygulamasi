@@ -31,6 +31,12 @@ export const SehirOlusturma = () => {
     ".css-1x51dt5-MuiInputBase-input-MuiInput-input": {
       color: "white",
     },
+    ".css-1iudku6": {
+      color: "white",
+    },
+    ".css-mnn31": {
+      color: "white",
+    },
   };
 
   return (

@@ -13,7 +13,7 @@ import Normal from "../img/Normal.mp4";
 export const ArkaPlan = () => {
   const yerelZaman = new Date();
   const saat = yerelZaman.getHours();
-  const sunState = saat >= 6 && saat < 18 ? true : false;
+  const sunState = saat >= 6 && saat < 20 ? true : false;
 
   const { selectedCity } = useContext(CityContext);
 
