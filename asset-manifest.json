@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Hava-Durumu-Uygulamasi/static/css/main.e224c3ea.css",
+    "main.js": "/Hava-Durumu-Uygulamasi/static/js/main.6dfda3b6.js",
+    "static/media/DayRain.mp4": "/Hava-Durumu-Uygulamasi/static/media/DayRain.89b30ed1f55482bb6d77.mp4",
+    "static/media/NightRain.mp4": "/Hava-Durumu-Uygulamasi/static/media/NightRain.dd4d524253e81d190942.mp4",
+    "static/media/Normal.mp4": "/Hava-Durumu-Uygulamasi/static/media/Normal.e00252b35a458ce9a2df.mp4",
+    "static/media/NightClear.mp4": "/Hava-Durumu-Uygulamasi/static/media/NightClear.1be58c3a55f414605a5b.mp4",
+    "static/media/clouds.mp4": "/Hava-Durumu-Uygulamasi/static/media/clouds.2805f4d3943a6aa1d9ea.mp4",
+    "static/media/snow.mp4": "/Hava-Durumu-Uygulamasi/static/media/snow.7bf2313aa27f9299c945.mp4",
+    "static/media/DayClear.mp4": "/Hava-Durumu-Uygulamasi/static/media/DayClear.9537824efac1fbb93da3.mp4",
+    "index.html": "/Hava-Durumu-Uygulamasi/index.html",
+    "main.e224c3ea.css.map": "/Hava-Durumu-Uygulamasi/static/css/main.e224c3ea.css.map",
+    "main.6dfda3b6.js.map": "/Hava-Durumu-Uygulamasi/static/js/main.6dfda3b6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e224c3ea.css",
+    "static/js/main.6dfda3b6.js"
+  ]
+}
