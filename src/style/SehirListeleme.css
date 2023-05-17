@@ -1,0 +1,18 @@
+.SehirListeleme {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 400px;
+  overflow-y: overlay;
+  min-width: 250px;
+}
+.SehirListeleme::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 850px) {
+  .SehirListeleme {
+    display: none;
+  }
+}

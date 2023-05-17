@@ -1,0 +1,26 @@
+.SehirBilgileriComponentStyle {
+  display: flex;
+  flex-direction: row;
+  min-height: 100px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.NameAndDescConteinerStyle {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+}
+.NameStyle {
+  width: 110px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.TempStyle {
+  color: white;
+}

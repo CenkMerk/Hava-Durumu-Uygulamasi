@@ -1,0 +1,45 @@
+.SeciliSehirConteinerStyle {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+  width: 100%;
+}
+.CityAndHoursConteinerStyle {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.CityPaperStyle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  gap: 10px;
+  padding: 20px;
+  width: 40%;
+  white-space: nowrap
+}
+.HoursConteinerStyle {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.DaysConteinerStyle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 750px) {
+  .SeciliSehirConteinerStyle{
+    padding: 0px;
+  }
+  .CityAndHoursConteinerStyle {
+    flex-direction: column;
+  }
+  .CityPaperStyle {
+    padding: 20px 0px;
+    width: 100%;
+  }
+}

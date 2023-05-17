@@ -1,0 +1,9 @@
+.SehirOlusturmaStyle{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 50%;
+    margin: auto;
+    min-width: 250px;
+    padding: 10px 20px;
+}

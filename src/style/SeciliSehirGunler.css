@@ -1,0 +1,13 @@
+.SeciliSehirGunler {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 23%;
+}
+
+@media (max-width: 500px) {
+  .SeciliSehirGunler {
+    gap: 0px;
+  }
+}
