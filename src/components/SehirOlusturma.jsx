@@ -8,14 +8,16 @@ import CityContext from "../context/CityContext";
 import Paper from "@mui/material/Paper";
 
 export const SehirOlusturma = () => {
+  //context den getWeatherData çağırıyorum
   const { getWeatherData } = useContext(CityContext);
-
+  //inputtaki değeri tutuyor
   const [city, setCity] = useState("");
-
+  //input her değiştiğinde değeri city stateine gönderiyor
   const handleChange = (event) => {
     setCity(event.target.value);
   };
-
+  //arama butonuna tıklandığında getWeatherData metoduna inputtaki değeri gönderiyorum
+  //inputun içini boşaltıyorum
   const handleSubmit = () => {
     getWeatherData(city);
     setCity("");

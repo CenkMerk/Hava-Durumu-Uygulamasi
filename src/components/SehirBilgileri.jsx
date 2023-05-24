@@ -7,10 +7,14 @@ import { useContext } from "react";
 import CityContext from "../context/CityContext";
 
 export const SehirBilgileri = ({ city }) => {
+  //bu kısımda şehrin id, hava durumunu ve adını datadan alıyorum.
   const { id, list, name } = city;
+  //hava durumu datasından açıklama ve sıcaklık değerlerine ulaşıyorum
   const desc = list[0].weather[0].description;
   const temp = Math.floor(list[0].main.temp);
+  
   const { SelectedCityById } = useContext(CityContext);
+  //burada ise şehre tıklandığında context teki SelectedCityById metoduna şehrin id sini yolluyorum.
   const handleClick = () => {
     SelectedCityById(id);
   };

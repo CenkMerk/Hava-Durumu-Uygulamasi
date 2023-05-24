@@ -4,6 +4,8 @@ import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
 
 export const SeciliSehirSaatlik = (item) => {
+  //bu kısımda json tipindeki datadan bana lazım olan
+  //saat, sıcaklık, ikonun kodunu alıyorum.
   const date = new Date(item.item.dt_txt);
   const timeString = date.toLocaleTimeString();
   const hour = `${timeString[0]}${timeString[1]}`;

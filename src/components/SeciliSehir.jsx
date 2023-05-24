@@ -9,8 +9,12 @@ import { SeciliSehirSaatlik } from "./SeciliSehirSaatlik";
 import { SeciliSehirGunler } from "./SeciliSehirGunler";
 
 export const SeciliSehir = () => {
+   //contextden seçilen şehrin datasını getirir
   const { selectedCity } = useContext(CityContext);
 
+  //Bu kısımda eğer sehir seçilmişse json tipindeki datadan
+  //şehir adı, sıcaklığı, açıklaması ve 5 günlük 3 saat aralıklı
+  //hava durumu bilgisi verileri uygun kısımdalardan çekip atamasını yapıcaz.
   const city = selectedCity.length > 0 ? selectedCity[0] : "";
   const temp =
     selectedCity.length > 0 ? Math.floor(selectedCity[1][0].main.temp) : "";
@@ -18,6 +22,7 @@ export const SeciliSehir = () => {
     selectedCity.length > 0 ? selectedCity[1][0].weather[0].description : "";
   const list = selectedCity.length > 0 ? selectedCity[1] : [];
 
+  //şehir her değiştiğinde render edilsin istiyorum
   useEffect(() => {}, [city]);
 
   return (
