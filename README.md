@@ -18,6 +18,8 @@
 
 - Hava durumuna göre değişen arka plan
 
+- Responsive web tasarımı
+
 **[Buradan](https://CenkMerk.github.io/Hava-Durumu-Uygulamasi) projenin çalışır halini inceleyebilirsiniz.**
 
 
